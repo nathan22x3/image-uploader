@@ -1,10 +1,9 @@
-import { FunctionComponent } from 'react';
 /** @jsxImportSource @emotion/react */
 import tw from 'twin.macro';
 
 export interface FooterProps {}
 
-const Footer: FunctionComponent<FooterProps> = () => {
+const Footer: React.FunctionComponent<FooterProps> = () => {
   return (
     <footer css={tw`py-6 font-montserrat text-sm text-center text-gray-300`}>
       <span>

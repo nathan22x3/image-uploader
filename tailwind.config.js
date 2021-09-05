@@ -21,20 +21,18 @@ module.exports = {
         600: '#333333',
       },
       black: '#000000',
-      green: '#219653',
+      green: { lightest: '#f6fbf8', light: '#9be9bd', DEFAULT: '#219653' },
       blue: { lightest: '#f6f8fb', light: '#97bef4', DEFAULT: '#2f80ed' },
     },
-    extend: {
-      animation: {
-        loading: 'move-to-right 1500ms linear infinite',
-      },
-      keyframes: {
-        'move-to-right': {
-          '0%': { transform: 'translateX(-100%)' },
-          '33%': { transform: 'translateX(100%) scaleX(1.4)' },
-          '66%': { transform: 'translateX(250%) scaleX(1)' },
-          '100%': { transform: 'translateX(360%)' },
-        },
+    animation: {
+      loading: 'move-to-right 1500ms linear infinite',
+    },
+    keyframes: {
+      'move-to-right': {
+        '0%': { transform: 'translateX(-100%)' },
+        '33%': { transform: 'translateX(100%) scaleX(1.4)' },
+        '66%': { transform: 'translateX(250%) scaleX(1)' },
+        '100%': { transform: 'translateX(360%)' },
       },
     },
   },

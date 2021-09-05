@@ -28,7 +28,7 @@ const SuccessModal: React.FunctionComponent<SuccessModalProps> = ({ downloadURL,
             background-image: url(${downloadURL});
           `,
         ]}
-      ></div>
+      />
       <div
         css={tw`flex items-center w-full p-1 pl-2 border border-gray-100 rounded-lg mt-6 mb-4 gap-x-3 bg-blue-lightest`}
       >

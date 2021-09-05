@@ -26,8 +26,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
@@ -37,15 +35,11 @@
 - [How To Use](#how-to-use)
 - [Contact](#contact)
 
-<!-- OVERVIEW -->
-
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![Result](./src/assets/images/result.gif)
 
 ### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -54,8 +48,8 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.
 
-- [ ] **User story**: You can drag and drop an image to upload it
-- [x] **User story**: You can choose to select an image from my folder
+- [x] **User story**: You can drag and drop an image to upload it
+- [x] **User story**: You can choose to select an image from your folder
 - [x] **User story**: You can see a loader when uploading
 - [x] **User story**: When the image is uploaded, you can see the image and copy it
 - [x] **User story**: You can choose to copy to the clipboard

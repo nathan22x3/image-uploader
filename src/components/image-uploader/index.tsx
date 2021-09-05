@@ -1,11 +1,11 @@
 import { getDownloadURL, ref, uploadBytes } from '@firebase/storage';
+import LoadingModal from 'components/image-uploader/loading-modal.component';
+import SuccessModal from 'components/image-uploader/success-modal.component';
 import UploadModal from 'components/image-uploader/upload-modal.component';
 import { storage } from 'configs/firebase.config';
 import { FunctionComponent, useState } from 'react';
 /** @jsxImportSource @emotion/react */
 import tw from 'twin.macro';
-import LoadingModal from './loading-modal.component';
-import SuccessModal from './success-modal.component';
 
 export interface ImageUploaderProps {}
 
