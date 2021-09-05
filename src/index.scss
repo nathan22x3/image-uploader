@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins font-medium;
+  }
+
+  .modal {
+    @apply flex flex-col items-center px-8 py-9 rounded-xl shadow-lg;
+    width: 400px;
+    max-width: 400px;
+  }
+
+  .button {
+    @apply inline-block h-9 px-4 py-2 rounded-lg text-sm bg-blue text-white cursor-pointer duration-200 hover:bg-opacity-80;
+  }
+}
